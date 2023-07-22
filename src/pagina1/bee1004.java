@@ -7,7 +7,9 @@ public class bee1004 {
         Scanner input = new Scanner(System.in);
         int a = input.nextInt();
         int b = input.nextInt();
-        double prod = a * b;
-        System.out.printf("PROD = ", prod);
+
+        int prod = a * b;
+
+        System.out.println("PROD = " + prod);
     }
 }
